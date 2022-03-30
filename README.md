@@ -83,7 +83,7 @@ al montarlo en aws las direcciones no quedan correctos para local, requieren cma
 mvn exec:java -Dexec.mainClass="edu.escuelaing.arep.RoundRobin"
 ```
 
-
+![](https://i.postimg.cc/XvZPwzmp/Capture29.png)
 
 ##### Requisitos:
 1)   [Java 8](https://www.java.com/download/ie_manual.jsp)
@@ -105,6 +105,9 @@ las peticiones gets correspondientes para obtener el resultado de la soperacione
 estos se relaizaron en dos githubs, este y el que se encuentra en el tope del readme, en donde se encuentra el proyecto completo. 
 
 ### AWS:
+
+se repiten lo sismo pasos para cada una de las maquncas y se crean 3 EC2 en donde en cada una se monta un servidor utilizado para 
+solucionar el proyecto ocmpletmanete, los siguientes screenshots muestran los procedimientos necesarios. 
 
 ![](https://i.postimg.cc/Wpy9TnHn/Capture1.png)
 
@@ -167,13 +170,14 @@ estos se relaizaron en dos githubs, este y el que se encuentra en el tope del re
 
 La arquitectura implementada es: 
 
+![](https://i.postimg.cc/zfcrNWZR/Capture28.png)
+
 
 ## Construido con
 -   HTML
 -   javascript
 -   java
 
-## Despliegue Heroku:
 
 ### Licencia.
 
