@@ -8,8 +8,8 @@ import java.util.PriorityQueue;
 public class APP_LB_RoundRobin {
     private final PriorityQueue  cola = new PriorityQueue<>();
 
-    String URLE1 = "http://localhost:34001";
-    String URLE2 = "http://localhost:34002";
+    String URLE1 = "http://http://ec2-184-72-215-232.compute-1.amazonaws.com:34001/";
+    String URLE2 = "http://ec2-34-227-27-239.compute-1.amazonaws.com:34002/";
     String respu = "";
 
     public APP_LB_RoundRobin() {
