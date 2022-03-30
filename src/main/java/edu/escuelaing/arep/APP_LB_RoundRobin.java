@@ -9,7 +9,7 @@ public class APP_LB_RoundRobin {
     private final PriorityQueue  cola = new PriorityQueue<>();
 
     String URLE1 = "http://localhost:34001";
-    String URLE2 = "http://localhost:34001";
+    String URLE2 = "http://localhost:34002";
     String respu = "";
 
     public APP_LB_RoundRobin() {
